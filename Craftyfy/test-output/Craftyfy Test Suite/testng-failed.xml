@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Craftyfy Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Payment Test(failed)">
+    <classes>
+      <class name="testcases.PaymentTest">
+        <methods>
+          <include name="bfClass"/>
+          <include name="bfTest"/>
+          <include name="validSignUp"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcases.PaymentTest -->
+    </classes>
+  </test> <!-- Payment Test(failed) -->
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="objInt"/>
+          <include name="tc07_list"/>
+          <include name="firstMet"/>
+          <include name="tc04_additemWithoutImage"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Craftyfy Test Suite] -->
